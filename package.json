@@ -1,10 +1,12 @@
 {
-  "name": "@omesiedscom",
-  "version": "1.0.0",
-  "description": "",
-  "author": "brthlmy.com@gmail.com",
+  "name": "@brthlmycom/omesiedscom",
+  "version": "1.0.1",
+  "description": "Netlify backend for omesieds.com",
+  "author": "brthlmy.com+omesiedscom@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "google-spreadsheet": "^3.2.0"
+    "@brthlmy/serverless-netlify-doorbell": "https://github.com/brthlmy-com/serverless-netlify-doorbell.git",
+    "@brthlmy/serverless-netlify-form": "https://github.com/brthlmy-com/serverless-netlify-form.git",
+    "@brthlmy/serverless-telegram-notifier": "https://github.com/brthlmy-com/serverless-telegram-notifier.git"
   }
 }
